@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|c:\\users\\simon\\documents\\my games\\terraria\\tmodloader\\modsources\\bouldermod\\common\\systems\\genpasses\\boulderbiomegenpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|solutionrelative:common\\systems\\genpasses\\boulderbiomegenpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|c:\\users\\simon\\documents\\my games\\terraria\\tmodloader\\modsources\\bouldermod\\content\\tiles\\hardenedstonetile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|solutionrelative:content\\tiles\\hardenedstonetile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|c:\\users\\simon\\documents\\my games\\terraria\\tmodloader\\modsources\\bouldermod\\content\\npcs\\boulderguy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBA7ECB-A030-42EF-8776-2E59B64D4204}|BoulderMod.csproj|solutionrelative:content\\npcs\\boulderguy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoulderBiomeGenPass.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Common\\Systems\\GenPasses\\BoulderBiomeGenPass.cs",
+              "RelativeDocumentMoniker": "Common\\Systems\\GenPasses\\BoulderBiomeGenPass.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Common\\Systems\\GenPasses\\BoulderBiomeGenPass.cs",
+              "RelativeToolTip": "Common\\Systems\\GenPasses\\BoulderBiomeGenPass.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:34:09.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HardenedStoneTile.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Content\\Tiles\\HardenedStoneTile.cs",
+              "RelativeDocumentMoniker": "Content\\Tiles\\HardenedStoneTile.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Content\\Tiles\\HardenedStoneTile.cs",
+              "RelativeToolTip": "Content\\Tiles\\HardenedStoneTile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:03:54.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoulderGuy.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Content\\NPCs\\BoulderGuy.cs",
+              "RelativeDocumentMoniker": "Content\\NPCs\\BoulderGuy.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\Content\\NPCs\\BoulderGuy.cs",
+              "RelativeToolTip": "Content\\NPCs\\BoulderGuy.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwHgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T18:58:08.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

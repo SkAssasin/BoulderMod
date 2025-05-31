@@ -3,6 +3,11 @@ Items: {
 		DisplayName: Boulder Block
 		Tooltip: ""
 	}
+
+	HardenedStoneTile: {
+		DisplayName: Hardened Stone Tile
+		Tooltip: ""
+	}
 }
 
 NPCs: {

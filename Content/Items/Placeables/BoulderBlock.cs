@@ -8,7 +8,7 @@ using Terraria.ID;
 
 namespace BoulderMod.Content.Items.Placeables
 {
-    internal class BoulderBlock:ModItem
+    internal class BoulderBlock : ModItem
     {
         public override void SetStaticDefaults()
         {

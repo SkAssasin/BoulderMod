@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "itGGZEFBKeS1BcGjJkjZChaxIdKiCJyuBpN4gNWkspgwwb2WrxokSVCWUJhlXs1ePCYSuXOH8aixwv0tj5C5AQ==",
+  "dgSpecHash": "0pi45FpnixY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Assasin\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\BoulderMod.csproj",
+  "projectFilePath": "C:\\Users\\simon\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BoulderMod\\BoulderMod.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Assasin\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "C:\\Users\\simon\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

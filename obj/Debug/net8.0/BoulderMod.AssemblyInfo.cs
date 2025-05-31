@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoulderMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1f69af30f7a29e5da67d05ad18483f9c8540371")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoulderMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoulderMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

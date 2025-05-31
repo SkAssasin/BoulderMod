@@ -23,18 +23,16 @@ namespace BoulderMod.Content.NPCs
         public override void SetStaticDefaults()
         {
             Main.npcFrameCount[NPC.type] = 23;
-            NPCID.Sets.DangerDetectRange[NPC.type] = 500; //this defines the npc danger detect range
-            NPCID.Sets.AttackType[NPC.type] = 1; //this is the attack type,  0 (throwing), 1 (shooting), or 2 (magic). 3 (melee) 
-            NPCID.Sets.AttackTime[NPC.type] = 3; //this defines the npc attack speed
-            NPCID.Sets.AttackAverageChance[NPC.type] = 10;//this defines the npc atack chance
+            NPCID.Sets.DangerDetectRange[NPC.type] = 500;
+            NPCID.Sets.AttackType[NPC.type] = 1; //attack type -> 0 (throwing), 1 (shooting), 2 (magic), 3 (melee) 
+            NPCID.Sets.AttackTime[NPC.type] = 3; //npc attack speed
+            NPCID.Sets.AttackAverageChance[NPC.type] = 10;
             NPCID.Sets.ShimmerTownTransform[NPC.type] = false;
 
             NPCID.Sets.NPCBestiaryDrawModifiers drawModifiers = new NPCID.Sets.NPCBestiaryDrawModifiers()
             {
                 Velocity = 1f, // Draws the NPC in the bestiary as if its walking +1 tiles in the x direction
-                Direction = 1 // -1 is left and 1 is right. NPCs are drawn facing the left by default but ExamplePerson will be drawn facing the right
-                              // Rotation = MathHelper.ToRadians(180) // You can also change the rotation of an NPC. Rotation is measured in radians
-                              // If you want to see an example of manually modifying these when the NPC is drawn, see PreDraw
+                Direction = 1 // -1 is left and 1 is right. NPCs are drawn facing the left by default
             };
 
         }
@@ -81,18 +79,20 @@ namespace BoulderMod.Content.NPCs
         {
             return new List<string>()
             {
-                    "Storner",
-                    "Stoner",
-                    "Stoey",
-                    "Stoney",
-                    "Steve"
+                "Storner",
+                "Pete",
+                "Geb",
+                "Frederick",
+                "Stoney",
+                "Stanley",
+                "Steve"
             };
         }
         public override string GetChat()
         {
             WeightedRandom<string> chat = new WeightedRandom<string>();
             if (NPC.downedGolemBoss && Main.rand.NextBool(5))
-                chat.Add("You are using boulders by placing them? With your hands? Come on, this is a modern age. You rather have to buy my STAFF OF EARTH! JUST 10 GOLD FOR ONE!");
+                chat.Add("Are you seriously using boulders by placing them? With your hands? Come on, this is a modern age. You rather have to buy my STAFF OF EARTH! JUST 10 GOLD FOR ONE!");
             chat.Add("I know, that you want my gun, but I'm not gonna sell it to you. IT'S MINE!");
             chat.Add("Did you hear about Terravid73? HE IS AWESOME!");
             chat.Add("Hello there...");
@@ -120,10 +120,10 @@ namespace BoulderMod.Content.NPCs
         {
             var npcShop = new NPCShop(Type, "Shop Main")
                 .Add(ItemID.Boulder)
-                // to add: hardened stone ore (if in hardmode)
+                .Add<Items.Placeables.HardenedStoneTile>()
                 .Add<Items.Placeables.BoulderBlock>();
             if (NPC.downedGolemBoss)
-                npcShop.Add(new Item(ItemID.StaffofEarth) { shopCustomPrice = Item.buyPrice(gold: 10) });
+                npcShop.Add(ItemID.StaffofEarth);
             npcShop.Register();
         }
         public override void ModifyNPCLoot(NPCLoot npcLoot)
